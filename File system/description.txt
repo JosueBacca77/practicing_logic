@@ -1,0 +1,10 @@
+You're asked about design a file system similar to Linux, this file system has to be able to run the next commands:
+
+cd(dirName): receive a folder name and takes the user there. Also, is the parameter is “..”, it has to come back to the parent.
+
+touch(fileName): receive a file name and creates it in the folder the user is in
+ls(): list the files and folders in the folder the user is in
+
+mkdir(dirName): receive a folder name and creates it in the folder the user is in
+
+pwd(): print the path the user is in
