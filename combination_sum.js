@@ -1,11 +1,11 @@
 //You have an array of candidates numbers, and a target
-//You have to return an array where every element id an array of a combination of numbers which the su of them is equal to the target e.g.:
+//You have to return an array where every element is an array of a combination of numbers which the sum of them is equal to the target e.g.:
 //Candidates: [1,2]
 //Target: 3
 //Output : [ [1,1,1], [1,2]]
 
 const candidates = [1,2,3]
-const target = 3
+const target = 5
 
 let sorted = candidates.sort(function(a, b) {
     return a - b;
